@@ -3,9 +3,17 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
-    background-color: #000;
- 
-  }
+    
+}
+
+ body{
+      background-color:black;
+      font-family: 'Hind Guntur', sans-serif;
+      font-family: 'Quicksand', sans-serif;
+     
+
+    }
+  
   ::selection{
     color: #000;
     background: #fff;
@@ -129,7 +137,7 @@
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
   }
   .styled-table thead tr {
-      background-color: white;
+      background-color: #0b7285;
       color: #ffffff;
       text-align: left;
   }
@@ -143,7 +151,7 @@
   }
   
   .styled-table tbody tr:nth-of-type(even) {
-      background-color: #f3f3f3;
+      background-color: #0b7285;
   }
   
   
@@ -160,7 +168,434 @@
       color: white;
   }
   .container, .buttn{
-      color: white;
+      color: #0b7285;
       text-align: center;
   }
+   .secondp{
+    border: snow;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);  
+  } 
+  .best{
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+    gap: 30px;
+  }
+  #lets{
+    width: 180px;
+    height: 40px;
+    background-color: chartreuse;
+    border-radius: 20px;
+  }
+ .crpto3{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+ }
+ .Secureway{
+  color: #fff;
+}
+.RO{
+  bottom:  solid black;
+
+}
+.REDY{
+  color: #51cf66;
+}
+.En{
+  color: black;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+.RO{
+ border: solid  grey 4px;
+  border-radius: 10PX;
+}
+.footer{
+ display: flex;
+ align-items: center;
+ margin-left: 30%;
+}
+.footerfirst{
+  color: #fff;
+  margin-right: 60px;
+}
+.links{
+  color: #fff;
+ 
+}
+
+.footergreen{
+  background-color: #51cf66;
+  color: #ffffff;
+}
+.col{
+  border: solid 3px grey;
+  border-radius: 10px;
+}
+.Start{
+  background-color: #51cf66;
+  color: #000;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+.Box-contai{
+  color: #151515;
+  margin-left: 10%;
+  border:  solid white;
+  height: 200px;
+  width: 300px;
+  padding:10px 10px ;
+ padding-bottom: 20px;  
+background-color: #9775fa;
+  margin-top: 30px;
+  border-radius: 20px;
+ 
+
+} 
+.Box-container2{
+  color: #151515;
+  margin-left: 10%;
+  border:  solid white;
+  height: 200px;
+  width: 300px;
+  padding:10px 10px ;
+  padding-bottom: 20px;  
+background-color: #e64980;
+  margin-top: 30px;
+  border-radius: 20px;
+ 
+}
+/* .container2ndlast{
+  display: flex;
+} */
+.confidence{
+  color: #fff;
+  border: solid black;
+  background-color: #151515;
+border-radius: 20px;
+
+}
+.community{
+ border: solid black;
+ color: #fff;
+ background-color: #151515;
+border-radius: 20px;
   
+}
+.eyes{
+  border: solid black;
+  color: #fff;
+background-color: #151515;
+border-radius: 20px;
+
+
+}
+
+.almost{
+  display: grid;
+  grid-template-columns: repeat(2,fr1);
+}
+.Mine{
+   display: flex; 
+}
+.IN{
+  color: darkgreen;
+}
+.Exnow{
+ background-color: darkgreen;
+ padding: 10px 10px;
+ border-radius: 10px;
+ color:#51cf66 ;
+
+}
+.BUTON3{
+  display: flex;
+}
+.GETICON{
+  padding: 10PX 10PX;
+ border-radius: 10px;
+background-color:black;
+color: #fff;
+}
+.ICONS{
+  padding: 10PX 10PX;
+  border-radius: 10px;
+  background-color: black;
+  color: #fff;
+}
+.Mine{
+  margin-left: 150%;
+  margin-bottom: 20%;
+}
+.almost{
+  display: grid;
+  grid-template-columns: repeat(1 fr2);
+}
+.bUILD{
+
+}
+.links{
+  margin-left: 60%;
+}
+
+.itall{
+  margin-left: 20%;
+  margin-bottom: 30%;
+}
+.RO{
+  align-items: center;
+  margin-left: 30%;
+}
+
+
+
+
+
+.WORDS{
+  
+  color: #fff;
+}
+.Subbutton{
+  margin-left: 80%;
+}
+.Button1{
+  color: #fff;
+  background-color: #151515;
+  padding: 10px 10px;
+  margin-left: 60%;
+}
+.send{
+  color: #fff;
+   background-color: #51cf66; 
+  padding: 10px 10px;
+
+
+}
+
+
+
+  .words{
+    color: #fff;
+
+  }
+  .words2{
+    color:#fff
+  }
+  /* .payment{
+    color: white;
+    color: #151515;
+    margin-right: 10%;
+    border:  solid white;
+    height: 200px;
+    width: 300px;
+    padding:10px 10px ;
+     padding-bottom: 20px;  
+     background: #495057;
+    margin-top: 30px;
+    border-radius: 20px; 
+  }
+  .boxyez{
+    color: #fff;
+  }
+  .part2{
+    color: #fff;
+    color: #246edc;
+    margin-right: 10%;
+    border:  solid white;
+    height: 200px;
+    width: 300px;
+    padding:10px 10px ;
+     padding-bottom: 20px;  
+     background: #495057;
+    margin-top: 30px;
+    border-radius: 20px;
+
+  }
+  .All{
+    display: flex;
+    
+  }
+     .payment{
+    color: #151515;
+    margin-right: 10%;
+    border:  solid white;
+    height: 200px;
+    width: 300px;
+    padding:10px 10px ;
+     padding-bottom: 20px;  
+     background: #495057;
+    margin-top: 30px;
+    border-radius: 20px; 
+   } 
+   
+
+/*     
+ .BOXESP {
+   border: 2px solid red;
+/* 
+    }
+   .boxyez{
+    border: 2px solid red; 
+ */
+
+    /* } 
+   */
+   /* .payment h1{
+    background-color: aqua
+  }
+
+ 
+   
+
+   .payment h1{
+    background-color: aqua
+  }
+  .Protection{
+    color: #151515;
+    margin-left: 10%;
+    border:  solid white;
+    height: 200px;
+    width: 300px;
+    padding:10px 10px ;
+     padding-bottom: 20px;  
+   background: #495057;
+    border-radius: 20px;
+   
+
+  }
+  .Ecosystem{
+    color: #151515;
+    margin-left: 10%;
+    border:  solid white;
+    height: 200px;
+    width: 300px;
+    padding:10px 10px ;
+   padding-bottom: 20px;  
+  background:#495057;
+    margin-top: 30px;
+    border-radius: 20px;
+   
+
+  }
+  .my boxes{
+    display: flex;
+  }
+  .Box-contai{
+    color: #151515;
+    margin-left: 10%;
+    border:  solid white;
+    height: 200px;
+    width: 300px;
+    padding:10px 10px ;
+   padding-bottom: 20px;  
+ background-color: #9775fa;
+    margin-top: 30px;
+    border-radius: 20px;
+   
+
+  } 
+ .Box-container2{
+    color: #151515;
+    margin-left: 10%;
+    border:  solid white;
+    height: 200px;
+    width: 300px;
+    padding:10px 10px ;
+    padding-bottom: 20px;  
+ background-color: #e64980;
+    margin-top: 30px;
+    border-radius: 20px;
+   
+ }
+ .smart{
+  display: flex;
+ }
+ .GET{
+  color: #ffffff;
+ } */
+ 
+/* 
+  .GETBUTTON{
+    background-color:#40c057#40c057 ;
+  }
+  .trade{
+    background-color: #40c057;
+    padding: 10px 10px;
+    border-radius: 20px;
+  }
+  .footer green{
+    background-color: #40c057;
+  }
+  .send{
+    background-color: #40c057;
+  }
+  .Button1{
+   border-radius: 20px;
+   padding: 10px 10px;
+  }
+  .footer{
+    display: flex;
+  }
+  .eyes{
+
+    color: #151515;
+    margin-left: 10%;
+    border:  solid white;
+    height: 200px;
+    width: 300px;
+    padding:10px 10px ;
+   padding-bottom: 20px; 
+ background-color: #eebefa;
+    margin-top: 30px;
+    border-radius: 20px;
+ 
+ }
+  .myboxes{
+    /* display: grid; */
+    /* grid-template-columns: repeat(3,1fr); */
+    /* border:solid white;
+  }
+ 
+  
+
+ 
+  .community{
+
+    color: #151515;
+    margin-left: 10%;
+    border:  solid white;
+    height: 200px;
+    width: 300px;
+    padding:10px 10px ;
+    padding-bottom: 20px; 
+  background-color: #eebefa;
+    margin-top: 30px; 
+ border-radius: 20px;
+
+ }  */
+  /* .GET{
+   border-radius: 10px;
+   background-color: black;
+   display: flex;
+  } 
+  .App{
+
+     border-radius: 10px;
+   background-color: black;
+  }
+  .green2{ 
+    background-color: #40c057;
+  }
+  .Explore{
+    color: #40c057;
+  }
+  .Secureway{
+    display: flex;
+/*   */
+  /* }
+  .trade{
+    background-color: #40c057;
+    padding: top 10px 10px;
+    border-radius: 10px;
+    padding: 8px 8px;
+  }  *
